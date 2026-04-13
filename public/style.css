@@ -1,0 +1,114 @@
+.logo {
+height:90px;
+width: 90px;
+}
+
+.navigation {
+display: flex;
+height: 75px;
+max-height: 75px;
+flex-direction: row;
+gap: 20px;
+align-items: center;
+}
+
+.anmelden {
+  background: #155dfc;
+  box-shadow: 0 10px 22px rgba(24, 58, 150, 0.28);
+  margin-right: 50px;
+  border-radius: 20px;
+  margin-left: auto;
+}
+
+.anmelden a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 170px;
+  height: 60px;
+  padding: 0 28px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  font-family:Arial;
+  text-decoration: none; /* entfernt den Unterstrich */
+}
+
+.sprache {
+ 
+ margin-right: 40px;
+}
+
+.flagge {
+  height: 50px;
+  width: 90px;
+}
+
+.background_city {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.background_img {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.Ueberschrift {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0 0 4px black, 0 0 10px black, 0 0 18px black, 0 0 32px black;
+}
+
+.Arzt_finden_Box {
+  position: absolute;
+  top: 50%;
+  left: 26%;
+  min-width: 600px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+
+
+.Arzt_finden a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 600px;
+  height: 60px;
+  padding: 0 28px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  font-family:Arial;
+  text-decoration: none; /* entfernt den Unterstrich */
+  background: #155dfc;
+  box-shadow: 0 10px 22px rgba(24, 58, 150, 0.28);
+  border-radius: 20px;
+}
+
+/* Verhindert das Einrücken der Liste */
+.dropdown-content {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute; /* Damit es über dem Content schwebt */
+  background: white;
+  border: 1px solid #ccc;
+}
+
+/* Entfernt den Standard-Pfeil (optional) */
+summary {
+  list-style: none;
+  cursor: pointer;
+}
