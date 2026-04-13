@@ -2,6 +2,15 @@
   font-family: Arial, sans-serif;
 }
 
+:root {
+  --card-width: 400px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .logo {
 height:90px;
 width: 90px;
@@ -62,9 +71,15 @@ align-items: center;
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
-  color: #ffffff;
-  font-size: 30px;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.Ueberschrift h1 {
+  font-size: 64px;
+  white-space: nowrap;
+  margin: 0;
 }
 
 .Arzt_finden_Box {
@@ -132,6 +147,51 @@ align-items: center;
 
 
 /*Hier ist mein Teil:*/
+
+
+.funktionen{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.FunktionenUeberschrift{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Symptomanalyse{
+    background:#f0f6fe;
+    border-radius: 20px;
+    padding: 20px;
+    width: var(--card-width);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    }
+
+.Symptomanalyse ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.Arzt_finden2 {
+  background: #f0f6fe;
+  border-radius: 20px;
+  padding: 20px;
+  width: var(--card-width);
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.Arzt_finden2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 .footer {
   background: #0b1220;
   color: white;
