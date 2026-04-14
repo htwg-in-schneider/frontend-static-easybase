@@ -23,14 +23,14 @@ max-height: 75px;
 flex-direction: row;
 gap: 20px;
 align-items: center;
+justify-content: space-between;
+padding: 0 20px;
 }
 
 .anmelden {
   background: #155dfc;
   box-shadow: 0 10px 22px rgba(24, 58, 150, 0.28);
-  margin-right: 50px;
   border-radius: 20px;
-  margin-left: auto;
 }
 
 .anmelden a {
@@ -46,20 +46,16 @@ align-items: center;
   text-decoration: none; /* entfernt den Unterstrich */
 }
 
-.sprache {
- 
- margin-right: 40px;
-}
 
 .flagge {
   height: 50px;
-  width: 90px;
+  width: 70px;
 }
 
 .background_img {
   position: relative;
   height: 1000px;
-
+  width: 100%;
   background-image: url("Background_City.svg");
   background-size: cover;
   background-position: center;
@@ -74,24 +70,21 @@ align-items: center;
   width: 100%;
   text-align: center;
   color: white;
+  font-size: 32px;  
+  font-weight: 700;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 1), 0 0 10px rgba(0, 0, 0, 1), 0 0 20px rgba(0, 0, 0, 1);
 }
 
-.Ueberschrift h1 {
-  font-size: 64px;
-  white-space: nowrap;
-  margin: 0;
-}
 
 .Arzt_finden_Box {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 1000px;
+  width: 1000px;
   height: 300px;
-  background-color: white;
+  background-color: #a3a3a3;
   border-radius: 20px;
-
   display: flex;
   flex-direction: column;      
   align-items: center;        
@@ -104,7 +97,6 @@ align-items: center;
 .Arzt_finden a {
   top: 50%;
   display: inline-flex;
-  cursor: pointer;
   align-items: center;
   justify-content: center;
   min-width: 810px;
@@ -115,28 +107,25 @@ align-items: center;
   font-weight: 700;
   text-decoration: none; /* entfernt den Unterstrich */
   background: #155dfc;
-  box-shadow: 0 10px 22px rgba(24, 58, 150, 0.28);
   border-radius: 10px;
 }
 
-.search_box {
+.suchfelder {
   display: flex;
   gap: 20px;
 }
 
-.search_box select,
-.search_box input {
+.suchfelder select,
+.suchfelder input {
   height: 55px;
   border-radius: 10px;
+  width: 400px;
   border: 1px solid #ccc;
   padding: 0 10px;
   box-shadow: 0 10px 22px rgba(24, 58, 150, 0.28);
 }
-.search_box input {
-  width: 400px;
-}
 
-.search_box button {
+.suchfelder button {
   height: 50px;
   padding: 0 20px;
   background: #155dfc;
@@ -163,7 +152,7 @@ align-items: center;
 }
 
 .Symptomanalyse{
-    background:#f0f6fe;
+    background:#a3a3a3;
     border-radius: 20px;
     padding: 20px;
     width: var(--card-width);
@@ -178,7 +167,7 @@ align-items: center;
 }
 
 .Arzt_finden2 {
-  background: #f0f6fe;
+  background: #a3a3a3;
   border-radius: 20px;
   padding: 20px;
   width: var(--card-width);
