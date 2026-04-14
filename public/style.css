@@ -99,7 +99,7 @@ padding: 0 20px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 810px;
+  width: 810px;
   height: 60px;
   padding: 0 28px;
   color: #ffffff;
@@ -225,4 +225,60 @@ padding: 0 20px;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+@media (max-width: 768px) {
+ 
+  .navigation {
+    height: auto;
+    padding: 0 10px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+  .anmelden a {
+    min-width: 120px;
+    height: 40px;
+    font-size: 20px;
+    padding: 0 16px;
+  }
+
+  .flagge {
+  height: 30px;
+  width: 40px;
+  }
+
+  .Ueberschrift {
+  width: 100%;
+  color: white;
+  font-size: 18px;  
+  text-shadow: 0 0 5px rgba(0, 0, 0, 1), 0 0 10px rgba(0, 0, 0, 1), 0 0 20px rgba(0, 0, 0, 1);
+  }
+
+  .Arzt_finden_Box {
+    width: 80%;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+
+
+  .Arzt_finden a {
+  top: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 60px;
+  padding: 0 28px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none; /* entfernt den Unterstrich */
+  background: #155dfc;
+  border-radius: 10px;
+}
 }
